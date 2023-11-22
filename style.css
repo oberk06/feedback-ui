@@ -96,9 +96,11 @@ strong {
     }
     #memnun{
         font-size: 15px;
+        text-align: center;
     }
     #geri{
         font-size: 10px;
+        text-align: center;
     }
     .oylar{
         display: flex;
@@ -107,7 +109,7 @@ strong {
         width:60%;
     }
     strong{
-      font-size: 10px;
+      font-size: 6px;
     }
 
 }
