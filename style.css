@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  
+
+
+}
+
+.container {
+  height: 300px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+    
+}
+
+.oylar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100px;
+  width: 25rem;
+}
+.tektek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+}
+
+.fa-solid {
+  font-size: 40px;
+
+  transition: all 0.3s;
+}
+.fa-solid:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#memnun {
+  font-size: large;
+  font-weight: bolder;
+  letter-spacing: 0.3rem;
+}
+#geri {
+  font-weight: bold;
+}
+strong {
+  margin-top: 1rem;
+}
+
+.fa-heart {
+  font-size: 50px;
+}
+
+@media (max-width: 400px){
+    body{
+        overflow: hidden;
+    }
+    .container{
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .fa-solid{
+        font-size: 20px;
+    }
+    #memnun{
+        font-size: 15px;
+    }
+    #geri{
+        font-size: 10px;
+    }
+    .oylar{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        gap: 0.5rem
+    }
+}
