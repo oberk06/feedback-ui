@@ -83,11 +83,13 @@ strong {
         overflow: hidden;
     }
     .container{
-        height: auto;
-        width: 100vw;
+        height: 15rem;
+        width: 94vw;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
+        
     }
     .fa-solid{
         font-size: 20px;
@@ -102,6 +104,10 @@ strong {
         display: flex;
         justify-content:space-between;
         align-items: center;
-        gap: 0.5rem
+        width:60%;
     }
+    strong{
+      font-size: 10px;
+    }
+
 }
